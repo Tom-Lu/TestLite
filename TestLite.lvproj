@@ -212,7 +212,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Main UI Menu.rtm" Type="Document" URL="../Core/Application/Main UI Menu.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TestLite Editor" Type="EXE">
@@ -263,7 +262,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0A039-1843-4D1C-9F25-085BDC4D93F9}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Executor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/TestLite Executor.exe</Property>
