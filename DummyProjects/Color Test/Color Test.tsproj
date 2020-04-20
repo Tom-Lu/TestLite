@@ -1,0 +1,2185 @@
+<Object>
+<Name>Member Access:Project</Name>
+<NumLevels>3</NumLevels>
+<Class>Color Test.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>5d40290e-e921-4fb1-999b-f4e7ad5eed11</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Project.lvclass</Name>
+<NumElts>7</NumElts>
+<EW>
+<Name>Run Mode</Name>
+<Choice>Parallel</Choice>
+<Choice>Batch</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>UI Config</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Title</Name>
+<Val>Color Test</Val>
+</String>
+<Cluster>
+<Name>Layout</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Order</Name>
+<Choice>LeftRight</Choice>
+<Choice>TopDown</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>Row</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Column</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Margin</Name>
+<Val>5</Val>
+</I32>
+</Cluster>
+</Cluster>
+<String>
+<Name>Config File</Name>
+<Val>Color Test.ini</Val>
+</String>
+<Cluster>
+<Name>Execution Config</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>Stop If Error</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Array>
+<Name>Steps</Name>
+<Dimsize>7</Dimsize>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>UIStep.lvclass</Class>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>3ff4104a-2863-4efd-96a9-a472d9474828</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Name Input</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Button Pressed</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Button</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Input Text</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Name</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>2</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>UIStep.lvclass</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Embedded</Name>
+<Val>1</Val>
+</Boolean>
+<EW>
+<Name>Size</Name>
+<Choice>Small</Choice>
+<Choice>Middle</Choice>
+<Choice>Big</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Title</Name>
+<Val>Name Input</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>Input your name please!</Val>
+</String>
+<Cluster>
+<Name>Text Style</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Font</Name>
+<Val>Arial</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>44.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Justification</Name>
+<Val>1</Val>
+</U16>
+<U32>
+<Name>TextColor</Name>
+<Val>16860</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>15990641</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Buttons</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Button1</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>OK</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Button2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Path>
+<Name>Image</Name>
+<Val></Val>
+</Path>
+<Boolean>
+<Name>Enable Input</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Input Validation</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Object>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>UIStep.lvclass</Class>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>dde95fdb-414d-4389-88da-093df8c50f25</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Check Number 1</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Button Pressed</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Button</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Input Text</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Input</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val>6</Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>UIStep.lvclass</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Embedded</Name>
+<Val>1</Val>
+</Boolean>
+<EW>
+<Name>Size</Name>
+<Choice>Small</Choice>
+<Choice>Middle</Choice>
+<Choice>Big</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Title</Name>
+<Val>Check Num 1</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>Type the number you see on screen:</Val>
+</String>
+<Cluster>
+<Name>Text Style</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Font</Name>
+<Val>Arial</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>23.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Justification</Name>
+<Val>1</Val>
+</U16>
+<U32>
+<Name>TextColor</Name>
+<Val>16860</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>15990641</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Buttons</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Button1</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>DONE</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Button2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Path>
+<Name>Image</Name>
+<Val>Images\NUM_6.jpg</Val>
+</Path>
+<Boolean>
+<Name>Enable Input</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Input Validation</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Object>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>UIStep.lvclass</Class>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>960979ca-5f38-465e-b8ac-46ab4505d58f</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Check Number 2</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Button Pressed</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Button</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Input Text</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Input</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val>26</Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>UIStep.lvclass</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Embedded</Name>
+<Val>1</Val>
+</Boolean>
+<EW>
+<Name>Size</Name>
+<Choice>Small</Choice>
+<Choice>Middle</Choice>
+<Choice>Big</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Title</Name>
+<Val>Check Num 1</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>Type the number you see on screen:</Val>
+</String>
+<Cluster>
+<Name>Text Style</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Font</Name>
+<Val>Arial</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>23.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Justification</Name>
+<Val>1</Val>
+</U16>
+<U32>
+<Name>TextColor</Name>
+<Val>16860</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>15990641</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Buttons</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Button1</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>DONE</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Button2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Path>
+<Name>Image</Name>
+<Val>Images\NUM_26.jpg</Val>
+</Path>
+<Boolean>
+<Name>Enable Input</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Input Validation</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Object>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>UIStep.lvclass</Class>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>212f07d6-4a85-4381-a185-0dd34f1289e3</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Check Character 1</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Button Pressed</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Button</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Input Text</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Input</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val>A</Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>UIStep.lvclass</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Embedded</Name>
+<Val>1</Val>
+</Boolean>
+<EW>
+<Name>Size</Name>
+<Choice>Small</Choice>
+<Choice>Middle</Choice>
+<Choice>Big</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Title</Name>
+<Val>Check Num 1</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>Type the character you see on screen:</Val>
+</String>
+<Cluster>
+<Name>Text Style</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Font</Name>
+<Val>Arial</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>23.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Justification</Name>
+<Val>1</Val>
+</U16>
+<U32>
+<Name>TextColor</Name>
+<Val>16860</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>15990641</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Buttons</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Button1</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>DONE</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Button2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Path>
+<Name>Image</Name>
+<Val>Images\CHARACTER_A.jpg</Val>
+</Path>
+<Boolean>
+<Name>Enable Input</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Input Validation</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Object>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>UIStep.lvclass</Class>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>1f3789f7-730e-48a1-9d21-dd90cecd8b46</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Check Character 2</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Button Pressed</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Button</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Input Text</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Input</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val>C</Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>UIStep.lvclass</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Embedded</Name>
+<Val>1</Val>
+</Boolean>
+<EW>
+<Name>Size</Name>
+<Choice>Small</Choice>
+<Choice>Middle</Choice>
+<Choice>Big</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Title</Name>
+<Val>Check Num 1</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>Type the character you see on screen:</Val>
+</String>
+<Cluster>
+<Name>Text Style</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Font</Name>
+<Val>Arial</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>23.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Justification</Name>
+<Val>1</Val>
+</U16>
+<U32>
+<Name>TextColor</Name>
+<Val>16860</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>15990641</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Buttons</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Button1</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>DONE</Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Button2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Size</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<U32>
+<Name>TextColor</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>BGColor</Name>
+<Val>13816530</Val>
+</U32>
+<Boolean>
+<Name>Bold</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Path>
+<Name>Image</Name>
+<Val>Images\CHARACTER_C.jpg</Val>
+</Path>
+<Boolean>
+<Name>Enable Input</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Input Validation</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Object>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>CallEXEStep.lvclass</Class>
+<Version>1.0.0.6</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>d8e687d2-b771-48cb-9bf2-3cfbfa91917c</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Call Ipconfig</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Exit Code</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Exit Code</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Output String</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Output String</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>CallEXEStep.lvclass</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>EXE Path</Name>
+<Val>ipconfig.exe</Val>
+</String>
+<String>
+<Name>Arguments</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Wait Until Completion</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Run Minimized</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Working Directory</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Object>
+<Object>
+<Name>TestStepBase.lvclass</Name>
+<NumLevels>3</NumLevels>
+<Class>CallVIStep.lvclass</Class>
+<Version>1.0.0.8</Version>
+<Version>1.0.0.17</Version>
+<Version>1.0.0.2</Version>
+<Cluster>
+<Name>SerializableObject.lvclass</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>ID</Name>
+<Val>c2fd961d-0290-42b4-9ccc-187530299b06</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Step.lvclass</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Plus</Val>
+</String>
+<String>
+<Name>Type</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Skip</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Stop If Fail</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>Project Path</Name>
+<Val>C:\Projects\DEV\TestLite\Src\DummyProjects\Color Test</Val>
+</Path>
+<Array>
+<Name>Output</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Output</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Result</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Result</Val>
+</String>
+<EW>
+<Name>Data Type</Name>
+<Choice>Boolean</Choice>
+<Choice>String</Choice>
+<Choice>Numeric</Choice>
+<Choice>Other</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Check Type</Name>
+<Choice>INVALID</Choice>
+<Choice>DO_NOT_CHECK</Choice>
+<Choice>RECORD</Choice>
+<Choice>VARIABLE</Choice>
+<Choice>EQUAL</Choice>
+<Choice>NOT_EQUAL</Choice>
+<Choice>STR_CONTAINS</Choice>
+<Choice>STR_START_WITH</Choice>
+<Choice>STR_END_WITH</Choice>
+<Choice>STR_REGEX_MATCH</Choice>
+<Choice>NUM_GT</Choice>
+<Choice>NUM_LT</Choice>
+<Choice>NUM_GE</Choice>
+<Choice>NUM_LE</Choice>
+<Choice>NUM_RANGE</Choice>
+<Choice>NUM_RANGE_BDY</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>String Limit</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Lower Limit</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Boolean Limit</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Case</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Variable Name 1</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 1</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Variable Name 2</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Limit Value Type 2</Name>
+<Choice>Constant</Choice>
+<Choice>Variable</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>CallVIStep.lvclass</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>Plus.vi</Val>
+</Path>
+<Boolean>
+<Name>Show Front Panel</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Wait Until Completion</Name>
+<Val>1</Val>
+</Boolean>
+<Array>
+<Name>Inputs</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Input</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>Y</Val>
+</String>
+<EW>
+<Name>Input Type</Name>
+<Choice>Default</Choice>
+<Choice>Value</Choice>
+<Choice>Variable</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>Type String</Name>
+<Dimsize>7</Dimsize>
+<I16>
+<Name></Name>
+<Val>14</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>16394</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>2143</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>20053</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>19781</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>21065</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>17152</Val>
+</I16>
+</Array>
+<String>
+<Name>Data String</Name>
+<Val>QAgAAAAAAAA=</Val>
+</String>
+<String>
+<Name>Variable Name</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Input</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Label</Name>
+<Val>X</Val>
+</String>
+<EW>
+<Name>Input Type</Name>
+<Choice>Default</Choice>
+<Choice>Value</Choice>
+<Choice>Variable</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>Type String</Name>
+<Dimsize>7</Dimsize>
+<I16>
+<Name></Name>
+<Val>14</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>16394</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>2143</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>20053</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>19781</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>21065</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>17152</Val>
+</I16>
+</Array>
+<String>
+<Name>Data String</Name>
+<Val>QAAAAAAAAAA=</Val>
+</String>
+<String>
+<Name>Variable Name</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+</Cluster>
+</Object>
+</Array>
+<Array>
+<Name>Variables</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Variable</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<LvVariant>
+<Name>Value</Name>
+</LvVariant>
+</Cluster>
+</Array>
+<Array>
+<Name>Execution Variables</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Variable</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<LvVariant>
+<Name>Value</Name>
+</LvVariant>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
