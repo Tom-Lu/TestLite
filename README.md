@@ -20,7 +20,7 @@ LabVIEW based test framework, implements features kind like TestStand but not as
 * After you have your TestLite project created, you can add steps and change project or step properties.
 Three different kind of steps supported:
   * UI Step
-    > UI Function such as message display, image display(jpg and png), batton selection, text input.
+    > UI Function such as message display, image display(jpg and png), button selection, text input.
   * VI Step
       > Step for call LabVIEW VIs, could be your project class memebers or standalone VIs.
   * EXE Step
@@ -33,3 +33,6 @@ Three different kind of steps supported:
 
 * Click "START" button in the executor UI to run your test project.
   > It's also possible to implements features like test execution trigger through external signal like DIO or other DUT detect method.
+
+#### Sounds complicate? Here is short video shows the procedure:
+![New Project](https://user-images.githubusercontent.com/3454238/79991957-74318100-84e5-11ea-8870-786725c80d67.gif)
