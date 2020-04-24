@@ -45,6 +45,7 @@
 			<Item Name="SerializableObject.lvclass" Type="LVClass" URL="../Core/SerializableObject/SerializableObject.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Core/Plugin.lvclass"/>
 			<Item Name="UIStep.lvclass" Type="LVClass" URL="../Core/UIStep.lvclass"/>
+			<Item Name="TestLite.ini" Type="Document" URL="../TestLite.ini"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder" URL="../Plugins">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -219,14 +220,13 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{39ACD55C-D16B-4C8A-BB7E-8504A206A525}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1A72AB8B-7287-4183-81EF-0390310ABDA7}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Sonos.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{88D67348-9DB5-4B6E-AF25-AF0334BA4BC1}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TestLite Editor</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7988ACAF-8F27-492F-9831-BA075695FB9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Editor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor/TestLite Editor.exe</Property>
@@ -236,7 +236,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TestLite_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E1BF338D-C9BC-480A-A8CA-00060ABB3C0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5039F213-D9B2-4E21-A2DC-7A17D4787D7E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Editor/Editor.lvclass/UI.vi</Property>
@@ -262,7 +262,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0A039-1843-4D1C-9F25-085BDC4D93F9}</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">53</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Executor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/TestLite Executor.exe</Property>
@@ -272,9 +272,11 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Plugin Folder</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/Plugins</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">EXE Path</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TestLite_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E1BF338D-C9BC-480A-A8CA-00060ABB3C0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4A0AE529-C358-4129-B125-896EBB4B4C25}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Application.lvclass/Main UI.vi</Property>
@@ -287,15 +289,116 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Plugins</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Core/TestLite.ini</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Tom Lu</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TestLite Executor</Property>
 				<Property Name="TgtF_internalName" Type="Str">TestLite Executor</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Tom Lu</Property>
 				<Property Name="TgtF_productName" Type="Str">TestLite Executor</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{480987E0-9A6E-4506-B91E-8E8264BCC132}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TestLite Executor.exe</Property>
+			</Item>
+			<Item Name="TestLite Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">TestLite</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{B6FFEFB4-D308-486A-A300-1AB4165C9E6C}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2015 SP1 f13</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2015</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2015</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{25643B9A-90E8-4100-B30C-10EC4DE2EE68}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI System Web Server 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2015</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Runtime 2015 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{128ABF1E-5F69-40D1-8A81-33DCF8229F08}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2015</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{78AAB900-C712-11E3-9C1A-0800200C9A66}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{4C0854AD-9BFC-4494-A4E0-D96C0C07F1F2}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">Sonos</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/TestLite/TestLite Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">TestLite Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
+				<Property Name="INST_productName" Type="Str">TestLite</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018023</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Tom Lu</Property>
+				<Property Name="MSI_arpURL" Type="Str">luqiang1983@gmail.com</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{00B02747-9773-4EAC-AD86-455854DD096C}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{497E3254-7483-4113-99C8-AAFA88EBA3B3}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">TestLite Editor.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">TestLite Editor</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">TestLite</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{4ACD0DE8-52CD-4226-A7E5-3ED0B2AB94CF}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">TestLite Editor</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/TestLite Editor</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">TestLite Executor.exe</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">TestLite Executor</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">TestLite</Property>
+				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[1].File[0].tag" Type="Str">{480987E0-9A6E-4506-B91E-8E8264BCC132}</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">TestLite Executor</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/TestLite Executor</Property>
+				<Property Name="Source[1].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>

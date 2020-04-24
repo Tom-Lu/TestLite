@@ -14,6 +14,7 @@ LabVIEW based test framework, implements features kind like TestStand but not as
 * Add TestLite Core folder to you project as auto-populating folder
 * Add new class as main test project class and change inheritance make TestLite/Core/Project.lvclass as parent of your project class.
 * Save your LabVIEW project and classes.
+#### Create Test Sequence
 * Open and run the TestLite/Core/Editor.lvclass/UI.vi or run prebuild executable file "TestLite Editor.exe".
   > TestLite Editor is the test sequence editor for the framework, it's similar to TestStand's sequence editor except don't have interactively execution and debug ability.
 * Click "New" button in the editor gui and select the test project class you created, now you create your first TestLite test project.
