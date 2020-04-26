@@ -52,6 +52,7 @@
 		</Item>
 		<Item Name="Image Loader.vi" Type="VI" URL="../Image Loader.vi"/>
 		<Item Name="TestLite_Icon.ico" Type="Document" URL="../TestLite_Icon.ico"/>
+		<Item Name="STATION_INFO_TYPEDEF.ctl" Type="VI" URL="../Core/Execution/STATION_INFO_TYPEDEF.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -226,7 +227,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7988ACAF-8F27-492F-9831-BA075695FB9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Editor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor/TestLite Editor.exe</Property>
@@ -262,7 +263,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0A039-1843-4D1C-9F25-085BDC4D93F9}</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Executor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/TestLite Executor.exe</Property>
@@ -272,11 +273,12 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Plugin Folder</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/Plugins</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">EXE Path</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TestLite_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4A0AE529-C358-4129-B125-896EBB4B4C25}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{31C0AE28-201E-43A5-B128-2F94D835ED7C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core/Application.lvclass/Main UI.vi</Property>
