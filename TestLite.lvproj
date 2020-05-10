@@ -228,7 +228,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7988ACAF-8F27-492F-9831-BA075695FB9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Editor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Editor/TestLite Editor.exe</Property>
@@ -264,7 +264,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0A039-1843-4D1C-9F25-085BDC4D93F9}</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestLite Executor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestLite Executor/TestLite Executor.exe</Property>
@@ -363,7 +363,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">TestLite Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{45775D13-7F4E-474B-87CA-FAF02000F2FC}</Property>
 				<Property Name="INST_productName" Type="Str">TestLite</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018023</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Tom Lu</Property>
