@@ -52,8 +52,6 @@
 		</Item>
 		<Item Name="Image Loader.vi" Type="VI" URL="../Image Loader.vi"/>
 		<Item Name="TestLite_Icon.ico" Type="Document" URL="../TestLite_Icon.ico"/>
-		<Item Name="STATION_INFO_TYPEDEF.ctl" Type="VI" URL="../Core/Execution/STATION_INFO_TYPEDEF.ctl"/>
-		<Item Name="STEP_END_DATA_TYPEDEF.ctl" Type="VI" URL="../Core/Execution/STEP_END_DATA_TYPEDEF.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
